@@ -24,15 +24,7 @@
 
 
 
-$(window).scroll(function(){
-    if ($(this).scrollTop() > 200){
-        $('.navbar').fadeIn('slow').css('display','flex');
-    }
-    else{
-        ('.navbar').fadeout('slow').css('display', 'none');
-    }    
-});
-    
+
  
     
 
