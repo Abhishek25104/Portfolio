@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  line-height: 1.15;
+}
+body{
+margin:0;
+font-family: "Roboto", sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: black;
+text-align: left;
+background-color: white;
+}
+
+
+
+
+
+.about-img{
+  /* max-width: 100px;
+  max-height: 100px; */
+  margin-left: auto;
+  right: auto;
+  border-radius: 50%;
+ }
+ 
+.btn{
+  padding:20px 25px;
+  border-radius: 100px;
+  border: 5px solid rgb(1, 3, 7);
+}
+
+.btn-white{
+  background-color: #ffffff;
+  border:2px solid #ffffff;
+}
+
+.btn-blue{
+  border: 2.4px solid #ffffff;
+  color: #ffffff;
+}
+
+.typed-cursor {
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.position-absolute{
+  font-weight: 700;
+
+}
+
+
+
+
+
+a{
+  color:rgb(76, 250, 7);
+  text-decoration:none;
+  background-color: transparent;
+}
+
+a:hover{
+  color:tomato;
+  text-decoration: underline;
+}
+
+.navbar-light{
+  display: none;
+}
+
+.navbar-light .navbar-navactual .nav-link{
+  padding: 25px 10px;
+  color: black;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar-light .navbar-navactual .nav-link:hover
+.navbar-light .navbar-navactual .nav-link.active{
+ color: purple;
+}
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+
+
+#myser:hover{
+  box-shadow: 0px 1px 13px rgba(8, 73, 238, 0.705); 
+
+}
+
+#weD:hover{
+  box-shadow: 0px 1px 13px rgba(238, 8, 8, 0.987); 
+
+}
+
+#weeD:hover{
+  box-shadow: 0px 1px 13px rgba(2, 245, 11, 0.967); 
+
+}
+
+#App:hover{
+  box-shadow: 0px 1px 13px rgba(165, 2, 247, 0.981); 
+
+}
+
+#cc:hover{
+  box-shadow: 0px 1px 13px rgb(0, 89, 255); 
+
+}
+
+#exp:hover{
+  box-shadow: 0px 1px 13px rgb(242, 255, 1); 
+
+}
+
+#con:hover{
+  box-shadow: 5px 2px 13px rgb(245, 245, 245); 
+
+}
+
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 50px;
+  text-align: center;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.container{
+    color:rgb(3, 6, 104);
+    background:rgba(69, 162, 233, 0.227);
+}
