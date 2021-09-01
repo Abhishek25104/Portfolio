@@ -13,6 +13,8 @@ html{
 }
 
 body{
+
+background-image: url(/images/ray-mallick-5J1bHRX1fNw-unsplash.jpg);
 margin:none;
 font-family: "Roboto", sans-serif;
 font-size: 1rem;
@@ -168,5 +170,7 @@ a:hover{
 .container{
     margin: none;
     color:rgb(72, 76, 202);
-    background:rgba(3, 10, 16, 0.227);
+
+    background-image: url(/images/bharath-g-s-aLGiPJ4XRO4-unsplash.jpg);
+    background-repeat: no-repeat;
 }
